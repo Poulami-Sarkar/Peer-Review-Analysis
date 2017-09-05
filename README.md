@@ -10,6 +10,7 @@ Download the Chromium database from ' www.dropbox.com/s/0p7f7ye0mff0no8/chromium
 3.The file 'personreview.csv' is geneated by executing the code
 
   use chromium;
+  
   select issue,sender,date,approval from comment;
 
 4.The folder Netowrk analysis contains two files 
