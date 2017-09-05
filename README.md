@@ -12,14 +12,14 @@ Download the Chromium database from ' www.dropbox.com/s/0p7f7ye0mff0no8/chromium
   use chromium;
   select issue,sender,date,approval from comment;
 
-4The folder Netowrk analysis contains two files 
+4.The folder Netowrk analysis contains two files 
   1.HeadTailCount.py - 
   Takes input from personreview.csv
     - Find out the number of reviews in the data-set, each of which has been commented upon by at least:
     - One person (R1)
 		- Two persons (R2)
 		- Three persons (R3)
-	- The number of persons in the data-set, each of whom have commented on at least:
+    - The number of persons in the data-set, each of whom have commented on at least:
 		- One review (P1)
 		- Two reviews (P2)
 		- Three reviews (R3)
